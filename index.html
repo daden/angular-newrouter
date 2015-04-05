@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <base href="/">
+  <title>My app</title>
+</head>
+<body ng-app="app" ng-controller="AppController as app">
+
+
+  <div ng-viewport></div>
+
+  <!--<div ng-viewport="about"></div>-->
+
+  <div style="height: 50px;"></div>
+
+  <!--<a ng-link="home">Home</a>-->
+  <!--<a ng-link="about">About</a>-->
+  <!--<a ng-link="/">DEFAULT</a>-->
+
+  <script src="/node_modules/angular/angular.js"></script>
+  <script src="/node_modules/angular-new-router/dist/router.es5.js"></script>
+  <script src="/app/app.js"></script>
+  <script src="./components/home/home.js"></script>
+  <script src="./components/about/about.js"></script>
+  <script src="./components/subhome/subhome.js"></script>
+</body>
+</html>

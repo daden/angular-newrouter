@@ -1,0 +1,19 @@
+{
+  "name": "newrouter",
+  "version": "0.0.0",
+  "description": "A playground for the Angular 2 router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "daden",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "~1.3.15",
+    "angular-new-router": "~0.5.3"
+  },
+  "dependencies": {
+    "angular": "~1.3.15",
+    "angular-new-router": "~0.5.3"
+  }
+}
